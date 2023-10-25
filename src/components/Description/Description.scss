@@ -1,0 +1,49 @@
+.Description {
+   
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    position: relative;
+    max-width: 1440px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 18px;
+    background: #1d1c1a;
+    box-shadow:  5px 5px 11px #0c0b0a,
+                -5px -5px 11px #2e2d2a;
+
+    & h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    padding: 3rem 0;
+    }
+
+    & p {
+        margin: 1rem 0;
+    }
+
+    &-Box {
+        display: flex;
+        flex-direction: column;
+
+        &-Unit {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Description {
+        &-Box {
+            flex-direction: row;
+
+            &-Unit {
+                width: 50%;
+            }
+        }
+    }
+
+}
