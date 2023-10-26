@@ -1,20 +1,4 @@
-
-
 .Welcome {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: start;
-    position: relative;
-    max-width: 1440px;
-    width: 100%;
-    height: auto;
-    margin: 1rem;
-    border-radius: 18px;
-    background: #1d1c1a;
-    box-shadow:  5px 5px 11px #0c0b0a,
-                -5px -5px 11px #2e2d2a;
 
     &-Box {
         margin-top: 1.5rem;
@@ -24,28 +8,28 @@
         align-items: start;
         line-height: 3.5rem;
         
-            &-Title {
-                font-family: 'League Spartan', sans-serif;
-                font-weight: bold;
-                font-size: 4.5rem;
-                text-align: center;
-                align-self: center;
-            }
+        &-Title {
+            font-family: 'League Spartan', sans-serif;
+            font-weight: bold;
+            font-size: 4.5rem;
+            text-align: center;
+            align-self: center;
+        }
 
-            &-H2 {
-                align-self: end;
-                margin-right: 1.2rem;
-            }
+        &-H2 {
+            align-self: end;
+            margin-right: 1.2rem;
+        }
 
-            &-Name {
-                display: flex;
-                flex-direction: column;
-            }
+        &-Name {
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     &-Picture {
         border-radius: 100%;
-        box-shadow: 5px 5px 5px black;
+        box-shadow: 5px 5px 5px #000000;
         width: 200px;
         height: 200px;
     }
@@ -59,17 +43,10 @@
 
 @media screen and (min-width: 768px) {
     .Welcome {
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        height: 40vh;
-        font-size: 2.5rem;
 
         &-Box-Title {
             font-size: 4.5rem;
         }
-
-
 
         &-Picture {
             order: 2;

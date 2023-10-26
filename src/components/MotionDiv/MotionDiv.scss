@@ -1,25 +1,33 @@
 .MotionDiv {
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     position: relative;
-    max-width: 90%;
-    height: 75vh;
-    margin: 1rem auto;
-    border-radius: 54px;
-    background: #b5b5b5;
-    box-shadow:  6px 6px 23px #989898,
-                -6px -6px 23px #d2d2d2;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+    border-radius: 18px;
+    background: #1d1c1a;
+    box-shadow:  5px 5px 11px #0c0b0a,
+                -5px -5px 11px #2e2d2a;
+
+    &-Title {
+        width: 100%;
+        text-align: center;
+        font-size: 4rem;
+        padding: 3rem 0;
+        text-shadow:  5px 5px black;
+        }
 }
 
 @media screen and (min-width: 768px) {
-    .MotionDiv {
+    .MotionDiv-Welcome {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        height: 50vh;
         font-size: 2.5rem;
     }
 }

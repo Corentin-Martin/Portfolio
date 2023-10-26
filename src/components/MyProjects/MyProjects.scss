@@ -1,0 +1,23 @@
+.MyProjects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+
+    &-item {
+        width: 100%;
+        margin: .5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .MyProjects {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .MyProjects-item {
+        width: 48%;
+    }
+}

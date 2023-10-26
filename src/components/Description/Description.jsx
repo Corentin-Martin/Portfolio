@@ -6,20 +6,7 @@ import RadioToWeb from '../../assets/pictures/radio-to-web.png';
 function Description() {
 
     return ( 
-        <motion.div 
-            initial={{ opacity: 0, scale : 0 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{opacity: {duration: 1}, scale: {duration: 1}}}
-            viewport={{ once: true }}
-            className='Description'
-        >
-            <motion.h2 
-                animate={{scale: 1}} 
-                initial={{scale: 0}} 
-                transition={{scale: {duration: 1.5}}}
-            >
-                Qui suis-je ?
-            </motion.h2>
+
             <div className='Description-Box'>
                 <div className='Description-Box-Unit'>
                     <p>Après un début de carrière derrière un micro dans un studio de radio, j'ai décidé de changer d'univers et de revenir dans un monde qui me faisait vibrer étant adolescent : le web !</p>
@@ -29,13 +16,13 @@ function Description() {
                 <motion.img 
                     whileInView={{scale: 1, rotate: 0}}
                     initial={{scale: 0, rotate: 180}}
-                    transition={{scale: {duration: 1.5}, rotate: {duration : 1.5}}}
+                    transition={{scale: {duration: 2}, rotate: {duration : 2}}}
                     viewport={{ once: true }} 
                     className='Description-Box-Unit'
                     src={RadioToWeb} 
                 />
             </div>
-        </motion.div>
+
     )
 }
 

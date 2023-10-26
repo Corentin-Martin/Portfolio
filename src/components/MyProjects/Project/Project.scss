@@ -1,0 +1,96 @@
+.Project {
+    color: #1D1C1A;
+    width: 100%;
+    border-radius: 27px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  5px 5px 2px #5c5c5c;
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+    & h2 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        margin-bottom: 1rem;
+    }
+
+    & h1 {
+        margin: 1.5rem;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+
+
+    &-Box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        & img {
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px #1D1C1A;
+            margin: 1rem;
+            width: 85%;
+        }
+    }
+
+    &-BottomBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        column-gap: .5rem;
+        row-gap: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+
+        & ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-style: italic;
+            font-size: 1.2rem;
+            width: 100%;
+            column-gap: .5rem;
+            background-color: white;
+            box-shadow: 10px 10px 10px black;
+            border-radius: 10px;
+
+        }
+
+        &-Right {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: #1D1C1A;
+            box-shadow: 10px 10px 10px black;
+            border-radius: 10px;
+            color: #b5b5b5;
+            padding: .5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .Project-Box {
+        flex-direction: row;
+
+        & img {
+            width: 50%;
+        }
+    }
+    .Project-BottomBox {
+        flex-direction: row;
+
+        & ul, &-Right {
+            width: 50%;
+        }
+    }
+}
+

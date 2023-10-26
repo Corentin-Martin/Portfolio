@@ -6,13 +6,7 @@ import AnimatedName from './AnimatedName/AnimatedName';
 function Welcome() {
    
     return (
-        <motion.div 
-            initial={{ opacity: 0, scale : 0 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{opacity: {duration: 1}, scale: {duration: 1}}}
-            viewport={{ once: true }}
-            className="Welcome"
-        >
+        <>
             <motion.img 
                 animate={
                     {
@@ -31,7 +25,7 @@ function Welcome() {
                 </div>
                 <h2 className='Welcome-Box-H2'>Développeur web & web-mobile</h2>
             </div>
-        </motion.div>
+        </>
     )
 }
 
