@@ -8,12 +8,13 @@
     align-items: start;
     position: relative;
     max-width: 1440px;
+    width: 100%;
     height: auto;
-    margin: 1rem auto;
+    margin: 1rem;
     border-radius: 18px;
-background: #1d1c1a;
-box-shadow:  5px 5px 11px #0c0b0a,
-             -5px -5px 11px #2e2d2a;
+    background: #1d1c1a;
+    box-shadow:  5px 5px 11px #0c0b0a,
+                -5px -5px 11px #2e2d2a;
 
     &-Box {
         margin-top: 1.5rem;
@@ -33,14 +34,26 @@ box-shadow:  5px 5px 11px #0c0b0a,
 
             &-H2 {
                 align-self: end;
+                margin-right: 1.2rem;
+            }
+
+            &-Name {
+                display: flex;
+                flex-direction: column;
             }
     }
 
     &-Picture {
         border-radius: 100%;
         box-shadow: 5px 5px 5px black;
-        width: 140px;
-        height: 140px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    .Welcome-Box-Name {
+        flex-direction: row;
     }
 }
 
@@ -55,6 +68,8 @@ box-shadow:  5px 5px 11px #0c0b0a,
         &-Box-Title {
             font-size: 4.5rem;
         }
+
+
 
         &-Picture {
             order: 2;
