@@ -11,7 +11,7 @@ function MotionDiv({content, className, title}) {
             initial={{ opacity: 0, scale : 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{opacity: {duration: 1}, scale: {duration: 1}}}
-            viewport={{ once: true, amount: 1 }}
+            viewport={{ once: true, amount: 0.001 }}
             className={`MotionDiv MotionDiv-${className}`}
         >
           {className !== "Welcome" && 
