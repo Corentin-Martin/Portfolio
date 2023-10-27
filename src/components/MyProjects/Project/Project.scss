@@ -7,7 +7,7 @@
     display: flex;
     padding: 1.5rem;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: sp;
     align-items: center;
     height: 100%;
 
@@ -36,10 +36,14 @@
     }
 
     &-Details {
-        padding: .2rem;
-        display: flex;
+        // padding: 0 .2rem;
+        display: inline;
         flex-direction: column;
-        row-gap: .6rem;
+        text-align: left;
+
+        & p {
+            margin-top: .6rem;
+        }
     }
 
     &-Discover {
@@ -63,12 +67,11 @@
 
 
     &-Box {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
 
         & img {
+            // position: absolute;
+            
             border-radius: 10px;
             box-shadow: 5px 5px 5px #1D1C1A;
             margin-bottom: 1rem;
@@ -82,7 +85,6 @@
         justify-content: space-around;
         column-gap: .5rem;
         row-gap: 1rem;
-        margin-top: 1rem;
         width: 100%;
 
         & ul {
@@ -116,10 +118,11 @@
 @media screen and (min-width: 992px) {
 
     .Project-Box {
-        flex-direction: row;
-        align-items: start;
+        // flex-direction: row;
+        // align-items: start;
 
         & img {
+            float: left;
             width: 50%;
             margin-bottom: 0;
             margin-right: 1rem;

@@ -32,8 +32,8 @@ const projects = [
                         <p>Chaque joueur inscrit peut effectuer des pronostics en répondant à des questions.</p>
                         <p>Chaque pilote a une cote personnelle calculée automatiquement grâce à un algorithme se basant sur le nombre de votes reçus sur les deux dernières courses ainsi que sur sa position actuelle au championnat.</p>
                         <p>Après une course, les joueurs ont accès au classement de l&apos;épreuve, au classement général, à leur fiche de participation corrigée et peuvent suivre les résultats de leurs amis.</p>
-                        <p>Le back-Office a une place importante sur ce projet pour générer les questionnaires, les listes des engagés et les vérifications d'après-course.</p>
-                        <p style={{fontStyle : 'italic'}}>A la fin de la saison, en Octobre 2023, le site compte 996 utilisateurs inscrits, plus de 5600 participations ont été enregistré (560 en moyenne par épreuve) et le jeu est un succès dans la communauté de l'Autocross et du Sprint Car.</p>
+                        <p>Le back-Office a une place importante sur ce projet pour générer les questionnaires, les listes des engagés et les vérifications d&apos;après-course.</p>
+                        <p style={{fontStyle : 'italic'}}>A la fin de la saison, en Octobre 2023, le site compte 996 utilisateurs inscrits, plus de 5600 participations ont été enregistré (560 en moyenne par épreuve) et le jeu est un succès dans la communauté de l&apos;Autocross et du Sprint Car.</p>
                     </>,
         picture : PronautocrossPicture,
         technos : [faHtml5, faCss3Alt, faPhp, faSquareJs],
@@ -47,7 +47,7 @@ const projects = [
         base : "Elaboration du cahier des charges et réalisation de toute la partie backend du projet",
         picture: RegaladePicture,
         technos : [faSymfony],
-        type : "Fin de formation - En groupe",
+        type : "Fin de formation",
         date: "Mai / Juin 2023"
     },
     {

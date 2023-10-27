@@ -6,8 +6,10 @@ import {motion} from 'framer-motion';
 function Project({project}) {
     return (
         <motion.div className="Project">
+            <div className='Project-Head'>
             <a href={project.link} target='_blank' rel="noreferrer"><h1>{project.name}</h1></a>
             <h2>{project.summary}</h2>
+            </div>
             <div className='Project-Box'>
                 <motion.img  
                 whileHover={{
@@ -15,11 +17,11 @@ function Project({project}) {
                     transition: { duration: 1 },
                 }} 
                 src={project.picture} />
-                <div>
                 <p className='Project-Base'>{project.base}</p>
-                <div className='Project-Details'>{project.details}</div>
-
-                </div>
+                
+                    
+                    <div className='Project-Details'>{project.details}</div>
+                
             </div>
             <div className='Project-BottomBox'>
                 <ul>
