@@ -13,7 +13,7 @@ function MotionDiv({content, className, title, id}) {
             initial={{ opacity: 0, scale : 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{opacity: {duration: 1}, scale: {duration: 1}}}
-            viewport={{ once: true, amount: 0.001 }}
+            viewport={{ once: true }}
             className={`MotionDiv MotionDiv-${className}`}
             id={id}
         >

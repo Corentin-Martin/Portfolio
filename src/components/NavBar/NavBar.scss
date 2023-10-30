@@ -9,6 +9,11 @@
         cursor: pointer;
         transition-duration: 1s;
         font-size: 1rem;
+        text-shadow: 2px 2px 1px black;
+        color: white;
+        background-color: rgba(181, 181, 181, 0.4);
+        padding: .2rem;
+        border-radius: 5px;
     }
 
     & a:hover {
