@@ -26,7 +26,7 @@ function Project({project}) {
             <div className='Project-BottomBox'>
                 <p className='Project-Conclusion'>{project.conclusion}</p>
                 <ul>
-                {project.technos.map((techno) => (<li key={techno}><FontAwesomeIcon icon={techno} className='fa-3x' /></li>) )}
+                {project.technos.map((techno) => (<li key={techno + Math.random()}><FontAwesomeIcon icon={techno} className='fa-3x' /></li>) )}
                 </ul>
                 <div className='Project-BottomBox-Right'>
                 

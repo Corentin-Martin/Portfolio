@@ -6,7 +6,7 @@ import {motion} from 'framer-motion';
 function MyProjects() {
     
     return (
-    <motion.div className="MyProjects" >
+    <div className="MyProjects" >
         {projects.map(
             (project) => (
             <motion.div 
@@ -18,7 +18,7 @@ function MyProjects() {
             ><Project  project={project} />
             </motion.div>)
         )}
-    </motion.div>
+    </div>
     )
 }
 

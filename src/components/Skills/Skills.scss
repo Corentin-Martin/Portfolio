@@ -1,0 +1,55 @@
+.Skills {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    &-Group {
+        width: 100%;
+        background-color: #b5b5b5;
+        padding: 1rem;
+        margin: 1rem 0.5rem;
+        border-radius: 18px;
+        box-shadow: 5px 5px 5px #5c5c5c;
+
+        & h1 {
+            color: #1c1c1c;
+            text-align: center;
+            font-size: 2rem;
+            margin: 0.5rem auto;
+            text-decoration-line: underline;
+        }
+
+        & ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 100%;
+            padding: 1rem;
+            
+    
+            & li {
+                margin: .5rem 1.5rem .5rem 0;
+                color: #1c1c1c;
+                font-size: 1.5rem;
+                font-style: italic;
+                width: 33%;
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width : 768px) {
+    .Skills-Group  ul  li {
+        width : 30%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .Skills-Group {
+        width: 48%;
+
+    }
+}
