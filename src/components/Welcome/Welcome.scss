@@ -7,6 +7,7 @@
         justify-content: center;
         align-items: start;
         line-height: 3.5rem;
+        width: 100%;
         
         &-Title {
             font-family: 'League Spartan', sans-serif;
@@ -22,6 +23,7 @@
         }
 
         &-Name {
+            align-self: end;
             display: flex;
             flex-direction: column;
         }
@@ -43,6 +45,10 @@
 
 @media screen and (min-width: 768px) {
     .Welcome {
+
+        &-Box-H2, &-Box-Name {
+            align-self: auto;
+        }
 
         &-Box-Title {
             font-size: 4.5rem;

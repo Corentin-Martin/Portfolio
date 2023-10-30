@@ -1,0 +1,35 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    &-Span {
+        font-weight: bold;
+        transition-duration: 1s;
+    }
+
+    &-Div {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        transition-duration: 1s;
+    }
+
+    &-Icon {
+        margin-right: 1rem;
+    }
+
+    & p {
+        margin: 1rem auto;
+    }
+
+    &-Div:hover {
+        font-size: 3rem;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        transition-duration: 1s;
+        z-index: 99;
+    }
+}
