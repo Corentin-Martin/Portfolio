@@ -13,7 +13,7 @@ function Project({project}) {
             <div className='Project-Box'>
                 <motion.img  
                 whileHover={{
-                    scale: 2,
+                    scale: 2.5,
                     transition: { duration: 1 },
                 }} 
                 src={project.picture} />
@@ -24,6 +24,7 @@ function Project({project}) {
                 
             </div>
             <div className='Project-BottomBox'>
+                <p className='Project-Conclusion'>{project.conclusion}</p>
                 <ul>
                 {project.technos.map((techno) => (<li key={techno}><FontAwesomeIcon icon={techno} className='fa-3x' /></li>) )}
                 </ul>

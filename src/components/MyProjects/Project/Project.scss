@@ -24,6 +24,10 @@
         font-weight: bold;
     }
 
+    &-Conclusion {
+        font-style: italic;
+    }
+
     &-Head {
         text-align: center;
         min-height: 10%;
@@ -122,7 +126,7 @@
 @media screen and (min-width: 992px) {
 
     .Project-Box {
-        min-height: 62%;
+        // min-height: 62%;
 
         & img {
             float: left;
