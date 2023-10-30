@@ -1,0 +1,22 @@
+.Opinion {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    &-Image {
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px #b5b5b5;
+        margin: 1rem;
+    }
+
+    & div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width : 768px) {
+    .Opinion {
+        flex-direction: row;
+    }
+}
