@@ -1,0 +1,19 @@
+.NavBar {
+    display: flex;
+    column-gap: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    justify-content: flex-end;
+
+    & a {
+        cursor: pointer;
+        transition-duration: 1s;
+        font-size: 1rem;
+    }
+
+    & a:hover {
+        color: black;
+        text-shadow: 2px 2px 1px white;
+        transition-duration: 1s;
+    }
+}

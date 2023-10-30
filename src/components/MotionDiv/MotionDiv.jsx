@@ -1,9 +1,11 @@
 
+
 import './MotionDiv.scss'
-import { motion } from 'framer-motion';
+import { motion} from 'framer-motion';
 
 // eslint-disable-next-line react/prop-types
-function MotionDiv({content, className, title}) {
+function MotionDiv({content, className, title, id}) {
+
 
 
     return (
@@ -13,6 +15,7 @@ function MotionDiv({content, className, title}) {
             transition={{opacity: {duration: 1}, scale: {duration: 1}}}
             viewport={{ once: true, amount: 0.001 }}
             className={`MotionDiv MotionDiv-${className}`}
+            id={id}
         >
           {className !== "Welcome" && 
            <motion.h2 
