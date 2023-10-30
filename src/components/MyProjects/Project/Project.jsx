@@ -7,8 +7,8 @@ function Project({project}) {
     return (
         <motion.div className="Project">
             <div className='Project-Head'>
-            <a href={project.link} target='_blank' rel="noreferrer"><h1>{project.name}</h1></a>
-            <h2>{project.summary}</h2>
+                <a href={project.link} target='_blank' rel="noreferrer"><h1>{project.name}</h1></a>
+                <h2>{project.summary}</h2>
             </div>
             <div className='Project-Box'>
                 <motion.img  
@@ -32,8 +32,8 @@ function Project({project}) {
                     <p>Type de projet : {project.type}</p>
                     <p>Réalisation : {project.date}</p>
                 </div>
+                <a className="Project-Discover" href={project.link} target='_blank' rel="noreferrer">Découvrir</a>
             </div>
-            <a className="Project-Discover" href={project.link} target='_blank' rel="noreferrer">Découvrir</a>
      
         </motion.div>
     )

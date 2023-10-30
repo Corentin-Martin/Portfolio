@@ -7,7 +7,7 @@
     display: flex;
     padding: 1.5rem;
     flex-direction: column;
-    justify-content: sp;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
 
@@ -24,22 +24,24 @@
         font-weight: bold;
     }
 
+    &-Head {
+        text-align: center;
+        min-height: 10%;
+    }
+
     &-Base {
-        background-color: #5c5c5c;
-        color: white;
+        color: #5c5c5c;
+        text-shadow: 2px 2px 1px white;
         font-style: italic;
         font-weight: 200;
-        padding: .5rem;
-        border-radius: 5px;
-        margin-bottom: 1rem;
         text-align: center;
+        margin-bottom: 1rem;
     }
 
     &-Details {
-        // padding: 0 .2rem;
-        display: inline;
         flex-direction: column;
         text-align: left;
+        margin-bottom: 1rem;
 
         & p {
             margin-top: .6rem;
@@ -51,6 +53,7 @@
         width: 50%;
         border: 2px solid black;
         text-align: center;
+        margin: auto;
         font-weight: bold;
         padding: 1rem;
         border-radius: 10px 10px;
@@ -68,10 +71,10 @@
 
     &-Box {
         text-align: center;
+        flex-grow: 1;
+        margin-bottom: 1rem;
 
         & img {
-            // position: absolute;
-            
             border-radius: 10px;
             box-shadow: 5px 5px 5px #1D1C1A;
             margin-bottom: 1rem;
@@ -86,6 +89,7 @@
         column-gap: .5rem;
         row-gap: 1rem;
         width: 100%;
+        min-height: 18%;
 
         & ul {
             display: flex;
@@ -118,21 +122,30 @@
 @media screen and (min-width: 992px) {
 
     .Project-Box {
-        // flex-direction: row;
-        // align-items: start;
+        min-height: 62%;
 
         & img {
             float: left;
             width: 50%;
-            margin-bottom: 0;
+            margin-bottom: 0.2rem;
             margin-right: 1rem;
         }
     }
+
+    .Project-Base {
+        text-align: left;
+    }
+
+    .Project-Head {
+        min-height: 18%;
+    }
+
     .Project-BottomBox {
         flex-direction: row;
+        flex-wrap: wrap;
 
         & ul, &-Right {
-            width: 50%;
+            width: 49%;
         }
     }
 }
