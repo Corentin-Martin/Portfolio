@@ -14,7 +14,7 @@ function MyProjects() {
                         initial={{scale: 0}}
                         whileInView={{scale: 1}}
                         transition={{scale: {duration: 1}}}
-                        viewport={{ once: true }}
+                        viewport={{ once: true, amount: 0 }}
                     >
                         <Project  project={project} />
                     </motion.div>
