@@ -11,8 +11,8 @@ function Welcome() {
                 animate={
                     {
                         scale: [1, 2, 2, 1, 1],
-                        rotate: [0, 180, 270, 380, 0],
-                        borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+                        rotate: [0, 380, 0, 380, 0],
+                        borderRadius: ["20%", "70%", "100%", "80%", "20%"],
                     }
                 }   
                 className='Welcome-Picture' src={profilPicture} 

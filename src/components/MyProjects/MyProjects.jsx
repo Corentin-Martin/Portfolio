@@ -13,7 +13,7 @@ function MyProjects() {
                 className="MyProjects-item" key={project.name} 
                 initial={{scale: 0}}
                 whileInView={{scale: 1}}
-                transition={{scale: {duration: 2.5}}}
+                transition={{scale: {duration: 1}}}
                 viewport={{ once: true }}
             ><Project  project={project} />
             </motion.div>)

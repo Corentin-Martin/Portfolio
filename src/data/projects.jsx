@@ -30,10 +30,10 @@ const projects = [
         details : 
         <>
             <p>L&apos;utilisateur peut ajouter une recette à sa liste de repas, sa liste de courses se met automatiquement à jour.</p>
-            <p> Il peut aussi se laisser guider, l&apos;application peut lui proposer des recettes en fonction de ce qu’il a déjà chez lui. Il ne lui reste qu’à cliquer sur les recettes qui lui plaisent le plus et sa liste de courses se met aussi à jour avec les quelques ingrédients qui peuvent manquer.</p>
+            <p> Il peut aussi se laisser guider, l&apos;application peut lui proposer des recettes en fonction de ce qu’il a déjà chez lui. Il ne lui reste plus qu’à cliquer sur les recettes qui lui plaisent le plus et sa liste de courses se met aussi à jour avec les quelques ingrédients qui peuvent manquer.</p>
             <p>Il peut aussi créer ses propres recettes, qu&apos;il partagera à tout le monde ou non, et pourra les ajouter en un clic dans sa prochaine liste de repas afin de mettre sa liste de courses à jour.</p>
         </>,
-        conclusion: "Ce fut un projet interessant, en particulier sur le fait de travailler en équipe de manière Agile avec le cadre Scrum.",
+        conclusion: "Ce fut un projet interessant, permettant de travailler en équipe de manière Agile avec le cadre Scrum.",
         picture: RegaladePicture,
         technos : [faSymfony],
         type : "Fin de formation",

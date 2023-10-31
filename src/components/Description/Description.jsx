@@ -10,7 +10,7 @@ function Description() {
             <div className='Description-Box'>
                 <div className='Description-Box-Unit'>
                     <p>Après un début de carrière derrière un micro dans un studio de radio, j'ai décidé de changer d'univers et de revenir dans un monde qui me faisait vibrer étant adolescent : le web !</p>
-                    <p>J'ai suivi une formation "Développeur Web et Web Mobile" chez O'Clock entre Janvier et Juin 2023 qui m'a permis d'acquérir de solides bases. Je suis maintenant à la recherche d'opportunités pour entrer pleinement dans cet univers professionnel.</p>
+                    <p>J'ai suivi une formation "Développeur Web et Web Mobile" chez O'Clock entre Janvier et Juillet 2023 qui m'a permis d'acquérir de solides bases et le Titre Professionnel "DWWM" (Développeur Web & Web Mobile). Continuant sans cesse d'apprendre, de pratiquer et de progresser via des projets personnels, je suis maintenant à la recherche d'opportunités pour entrer pleinement dans cet univers professionnel.</p>
                     <p>Vous risquez de le comprendre en continuant de découvrir cette page, ma passion est le sport automobile que je pratique en compétition. En plus d'apporter de l'adrénaline et d'assouvir une certaine soif de sensations fortes, la compétition permet aussi de développer une force mentale et une envie de se dépasser et d'aller toujours plus loin ! Autant de qualités transposables dans le monde professionnel !</p>
                 </div> 
                 <motion.img 
