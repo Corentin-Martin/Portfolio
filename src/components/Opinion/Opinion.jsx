@@ -1,8 +1,8 @@
-import BilanEnd from '../../assets/pictures/bilan-fin.png';
-import BilanApo from '../../assets/pictures/bilan-apo.png';
-import BilanTP from '../../assets/pictures/bilan-tp.png';
 import './Opinion.scss';
 import {motion} from 'framer-motion';
+import BilanTP from '../../assets/pictures/bilan-tp.png';
+import BilanEnd from '../../assets/pictures/bilan-fin.png';
+import BilanApo from '../../assets/pictures/bilan-apo.png';
 
 
 function Opinion() {

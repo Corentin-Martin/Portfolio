@@ -1,7 +1,7 @@
 import './Welcome.scss'
 import {motion} from 'framer-motion';
-import profilPicture from '../../assets/pictures/profil-picture.jpg'
 import AnimatedName from './AnimatedName/AnimatedName';
+import profilPicture from '../../assets/pictures/profil-picture.jpg'
 
 function Welcome() {
    

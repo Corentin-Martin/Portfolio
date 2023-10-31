@@ -1,5 +1,5 @@
-import {  useRef } from 'react';
 import './MotionDiv.scss'
+import {  useRef } from 'react';
 import { motion, useInView} from 'framer-motion';
 
 // eslint-disable-next-line react/prop-types
@@ -15,19 +15,19 @@ function MotionDiv({content, className, title, id}) {
             id={id}
             ref={ref}
         >
-          {className !== "Welcome" && 
-           <motion.h2 
-           whileInView={{scale: 1, opacity: 1}} 
-           initial={{scale: 3, opacity: 0}} 
-           transition={{scale: {duration: 1}, opacity: {duration : 1} }}
-           viewport={{ once: true }}
-           className='MotionDiv-Title'
-       >
-           {title}
-       </motion.h2>}
-         
-          {content}
-          </motion.div>
+            {className !== "Welcome" 
+                && 
+                <motion.h2 
+                    whileInView={{scale: 1, opacity: 1}} 
+                    initial={{scale: 3, opacity: 0}} 
+                    transition={{scale: {duration: 1}, opacity: {duration : 1} }}
+                    viewport={{ once: true }}
+                    className='MotionDiv-Title'>
+                    {title}
+                </motion.h2>
+            }
+            {content}
+        </motion.div>
     )
 }
 
